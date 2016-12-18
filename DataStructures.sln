@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{C56A3EE0-5ACB-4DA1-BE4A-27C075D2A4D7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructuresTest", "DataStructuresTest\DataStructuresTest.csproj", "{91BD4FD1-27AD-4484-8079-EE9C27DA046F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{4B0A79B9-6829-4588-A807-095C7FC3D7DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTree", "BinarySearchTree\BinarySearchTree.csproj", "{3F1A0A45-9F29-4282-884C-5949A22BE623}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{91BD4FD1-27AD-4484-8079-EE9C27DA046F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91BD4FD1-27AD-4484-8079-EE9C27DA046F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91BD4FD1-27AD-4484-8079-EE9C27DA046F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B0A79B9-6829-4588-A807-095C7FC3D7DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B0A79B9-6829-4588-A807-095C7FC3D7DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B0A79B9-6829-4588-A807-095C7FC3D7DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B0A79B9-6829-4588-A807-095C7FC3D7DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F1A0A45-9F29-4282-884C-5949A22BE623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F1A0A45-9F29-4282-884C-5949A22BE623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F1A0A45-9F29-4282-884C-5949A22BE623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F1A0A45-9F29-4282-884C-5949A22BE623}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

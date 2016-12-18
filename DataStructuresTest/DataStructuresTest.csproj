@@ -8,7 +8,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DataStructuresTest</RootNamespace>
     <AssemblyName>DataStructuresTest</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -16,6 +16,7 @@
     <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
     <IsCodedUITest>False</IsCodedUITest>
     <TestProjectType>UnitTest</TestProjectType>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -50,13 +51,18 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="BinarySearchTreeTest.cs" />
     <Compile Include="LinkedListTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DataStructures\DataStructures.csproj">
-      <Project>{c56a3ee0-5acb-4da1-be4a-27c075d2a4d7}</Project>
-      <Name>DataStructures</Name>
+    <ProjectReference Include="..\BinarySearchTree\BinarySearchTree.csproj">
+      <Project>{3f1a0a45-9f29-4282-884c-5949a22be623}</Project>
+      <Name>BinarySearchTree</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LinkedList\LinkedList.csproj">
+      <Project>{4b0a79b9-6829-4588-a807-095c7fc3d7da}</Project>
+      <Name>LinkedList</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

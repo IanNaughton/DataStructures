@@ -74,8 +74,6 @@ namespace DataStructuresTest
             Assert.AreEqual("1st", testList.Find(x => x == "1st"));
             Assert.AreEqual(null, testList.Find(x => x == "2nd"));
             Assert.AreEqual("3rd", testList.Find(x => x == "3rd"));
-        } 
-
-      
+        }
     }
 }

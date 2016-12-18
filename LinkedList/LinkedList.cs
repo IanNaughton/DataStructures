@@ -178,7 +178,7 @@ namespace DataStructures
         /// Print a list of our nodes in head to tail order 
         /// </summary>
         /// <returns></returns>
-        public string ToString()
+        public override string ToString()
         {
             string listAsString = string.Empty;
             Node<T> currentNode = _head;
