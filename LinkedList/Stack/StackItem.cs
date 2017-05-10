@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataStructuresTest
+namespace LinkedList.Stack
 {
-    public class LinkedListTests
+    public class StackItem
     {
     }
 }

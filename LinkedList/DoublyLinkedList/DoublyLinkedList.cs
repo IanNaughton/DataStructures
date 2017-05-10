@@ -11,7 +11,7 @@ namespace DataStructures
     /// DISCLAIMER - This is not sorted soooo accessing elements that need
     /// to be searched for will be O(n)
     /// </summary>
-    public class CustomLinkedList<T> : IEnumerable<T>
+    public class DoublyLinkedList<T> : IEnumerable<T>
     {
         private Node<T> _head;
         
